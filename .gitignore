@@ -1,0 +1,39 @@
+# OS metadata files
+.DS_Store
+Thumbs.db
+db.json
+
+# IDE and Project configuration files
+.idea/
+*.iml
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Local configuration overrides
+.env
+.env.local
+.env.*.local
+local.properties
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node dependencies
+node_modules/
+package-lock.json
+
+# Temporary files and builds
+build/
+bin/
+obj/
+tmp/
+temp/
+out/
+dist/
+
+# Ignored binary releases (ensure release APKs are committed to releases/ if wanted, or ignored if uploaded via GitHub Release interface)
+# releases/*.apk
